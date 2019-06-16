@@ -17,19 +17,18 @@ html, body {
 }
 .carousel-inner img {
     width: 100%;
-
 }
 .carousel-caption {
     position: absolute;
     top: 50%;
 }
 .carousel-caption h1 {
-    font-size: 100%;
+    font-size: 300%;
     text-transform: uppercase;
     text-shadow: 1px 1px 10px #000;
 }
 .carousel-caption h3 {
-    font-size: 200%;
+    font-size: 350%;
     font-weight: 500;
     text-shadow: 1px 1px 10px #000;
     padding-bottom: 1 rem;
@@ -109,15 +108,13 @@ hr.light-100 {
 
 
 @media (max-width: 768px) {
-.carousel-caption {
-    top: 45%;
-}
+
 .carousel-caption h1 {
-    font-size: 100%;
+    font-size: 50%;
 }
 .carousel-caption h3 {
-    font-size: 140;
-    font-weight: 400;
+    font-size: 200%;
+    font-weight: 300;
     padding-bottom: .2rem;
 }
 .carousel-caption .btn {
@@ -132,18 +129,14 @@ hr.light-100 {
     padding:1.2rem;
 }
 
-
-
 }
 @media (max-width: 576px) {
-.carousel-caption {
-    top: 40%;
-}
+
 .carousel-caption h1 {
-    font-size: 250%;
+    font-size: 20%;
 }
 .carousel-caption h3 {
-    font-size: 110%;
+    font-size: 90%;
 
 }
 .carousel-caption .btn {
